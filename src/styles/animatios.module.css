@@ -1,0 +1,24 @@
+.animation-one{
+    animation: one 1s linear 1;
+}
+.animation-two{
+    animation: two 6s linear 1;
+}
+@keyframes one {
+    from{
+        transform: translate(0,48px);
+    }
+}
+@keyframes two {
+    from{
+        opacity: 0;
+        transform: translate(-100vw);
+    }
+    20%{
+        transform: translate(0);
+        opacity: 1;
+    }
+    to{
+        transform: translate(0);
+    }
+}
